@@ -1,0 +1,103 @@
+.header {
+  margin-bottom: 10px;
+}
+
+.header .profile-image {
+  z-index: 10;
+  height: 175px;
+  width: 175px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 20px rgba(51, 93, 45, 0.2);
+}
+
+.header .name-text {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.header .name-text .IGHandle {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.header .description {
+  max-width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.header .description p {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.35);
+  line-height: 1.4;
+}
+
+#social--main {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 7px 7px;
+  padding: 10px;
+}
+
+#other-links {
+  margin-bottom: 20px;
+  margin-top: -15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#other-links .other-link {
+  font-weight: 600;
+  display: block;
+  color: #2a3d66;
+  position: relative;
+  margin-top: 15px;
+  width: 270px;
+  height: auto;
+  padding: 15px;
+  font-size: 1.25em;
+  background-color: rgba(42, 61, 102, 0.2);
+  border-radius: 20px;
+  border-color: black;
+  border-width: 1em;
+}
+
+.social-item {
+  margin: 7px;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 30%;
+}
+
+.social-item .bx {
+  align-self: center;
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:active, a:visited {
+  text-decoration: none;
+}

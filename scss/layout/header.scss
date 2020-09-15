@@ -1,0 +1,35 @@
+.header {
+  // margin-top: 100px;
+  margin-bottom: 10px;
+
+  .profile-image {
+    z-index: 10;
+    height: 175px;
+    width: 175px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 20px rgba(#335d2d, 0.2);
+  }
+
+  .name-text {
+    font-size: 1.25em;
+    font-weight: 700;
+
+    .IGHandle {
+      font-weight: 500;
+      color: rgba(black, 0.7);
+    }
+  }
+
+  .description {
+    max-width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+
+    p {
+      font-size: 1em;
+      color: rgba(black, 0.35);
+      line-height: 1.4;
+    }
+  }
+}
