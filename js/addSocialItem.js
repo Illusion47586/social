@@ -6,11 +6,11 @@ var mainSocialtems = [{
   "href": "",
   "classes": "bxl-dribbble",
 }, {
-  "name": "instagram",
-  "color": "193,53,132",
+  "name": "github",
+  "color": "51,51,51",
   "href": "",
-  "classes": "bxl-instagram",
-}, {
+  "classes": "bxl-github",
+},{
   "name": "behance",
   "color": "23,105,255",
   "href": "",
@@ -21,10 +21,15 @@ var mainSocialtems = [{
   "href": "",
   "classes": "bxl-linkedin",
 },{
-  "name": "github",
-  "color": "51,51,51",
+  "name": "instagram",
+  "color": "193,53,132",
   "href": "",
-  "classes": "bxl-github",
+  "classes": "bxl-instagram",
+},{
+  "name": "email",
+  "color": "199,22,16",
+  "href": "",
+  "classes": "bx-mail-send",
 },{
   "name": "youtube",
   "color": "255,0,0",
