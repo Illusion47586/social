@@ -2,12 +2,12 @@
 @import "layout/header";
 @import "layout/social-list";
 @import "layout/link-box";
-
 @import "element/social-item";
-@import "element/link-item";
+
+@import "remove-blue-highlight";
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -15,6 +15,8 @@ body {
   justify-content: center;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 * {
@@ -24,7 +26,10 @@ body {
 
 a {
   text-decoration: none;
-   &:hover, &:active, &:visited {
-     text-decoration: none;
-   }
+
+  &:active,
+  &:hover,
+  &:visited {
+    text-decoration: none;
+  }
 }

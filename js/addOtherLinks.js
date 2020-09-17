@@ -14,7 +14,7 @@ var linkBox = document.getElementById('other-links');
 
 for (var i = 0; i < linkItems.length; i++) {
   const linkContainer = document.createElement('a');
-  linkContainer.setAttribute('class', 'other-link');
+  linkContainer.setAttribute('class', 'other-link noSelect');
   linkContainer.setAttribute('href', linkItems[i].href);
   linkContainer.setAttribute('style', "background-color: rgba(" + linkItems[i].color + ", 0.2); color: rgb(" + linkItems[i].color + ")");
 

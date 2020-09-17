@@ -49,7 +49,7 @@ var socialMain = document.getElementById('social--main');
 
 for (var i = 0; i < mainSocialtems.length; i++) {
   const linkContainer = document.createElement('a');
-  linkContainer.setAttribute('class', 'social-item');
+  linkContainer.setAttribute('class', 'social-item noSelect');
   linkContainer.setAttribute('href', mainSocialtems[i].href);
   linkContainer.setAttribute('style', "background-color: rgba(" + mainSocialtems[i].color + ", 0.08)");
 

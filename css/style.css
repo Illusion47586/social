@@ -1,10 +1,14 @@
 .header {
   margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
 }
 
 .header .profile-image {
   z-index: 10;
-  height: 175px;
   width: 175px;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -24,11 +28,11 @@
 .header .description {
   max-width: 300px;
   padding: 10px;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .header .description p {
-  font-size: 1em;
+  font-size: 16px;
   color: rgba(0, 0, 0, 0.35);
   line-height: 1.4;
 }
@@ -37,7 +41,7 @@
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 7px 7px;
-  padding: 10px;
+  padding: 10px 10px 0;
 }
 
 #other-links {
@@ -57,15 +61,13 @@
   width: 270px;
   height: auto;
   padding: 15px;
-  font-size: 1.25em;
+  font-size: 20px;
   background-color: rgba(42, 61, 102, 0.2);
   border-radius: 20px;
-  border-color: black;
-  border-width: 1em;
 }
 
 .social-item {
-  margin: 7px;
+  margin: 7px 7px 0;
   padding: 10px;
   display: inline-block;
   border-radius: 30%;
@@ -73,13 +75,23 @@
 
 .social-item .bx {
   align-self: center;
-  font-size: 2.5rem;
+  font-size: 40px;
   padding: 0;
   margin: 0;
 }
 
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
-  height: 100vh;
+  min-height: 100vh;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -87,6 +99,8 @@ body {
   justify-content: center;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 * {
@@ -98,6 +112,6 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:active, a:visited {
+a:active, a:hover, a:visited {
   text-decoration: none;
 }
