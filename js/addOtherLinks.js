@@ -3,11 +3,11 @@
 var linkItems = [{
   "name": "2020 so far",
   "color": "207,117,0",
-  "href": "",
+  "href": "https://illusion47586.github.io/2020sofar",
 }, {
-  "name": "event update",
+  "name": "event submission",
   "color": "106,25,125",
-  "href": "",
+  "href": "https://forms.gle/NRvcnExXe5N8QWFb8",
 },];
 
 var linkBox = document.getElementById('other-links');
