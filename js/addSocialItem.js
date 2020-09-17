@@ -3,42 +3,42 @@
 var mainSocialtems = [{
   "name": "dribbble",
   "color": "234, 76, 137",
-  "href": "",
+  "href": "https://dribbble.com/Dhruv47586",
   "classes": "bxl-dribbble",
 }, {
   "name": "github",
   "color": "51,51,51",
-  "href": "",
+  "href": "https://github.com/Illusion47586",
   "classes": "bxl-github",
 },{
   "name": "behance",
   "color": "23,105,255",
-  "href": "",
+  "href": "https://www.behance.net/dhruvtiwari1",
   "classes": "bxl-behance",
 }, {
   "name": "linkedin",
   "color": "0,119,181",
-  "href": "",
+  "href": "https://www.linkedin.com/in/dhruvtiwari47586/",
   "classes": "bxl-linkedin",
 },{
   "name": "instagram",
   "color": "193,53,132",
-  "href": "",
+  "href": "https://www.instagram.com/dhruvissavage/",
   "classes": "bxl-instagram",
 },{
   "name": "email",
   "color": "199,22,16",
-  "href": "",
+  "href": "mailto:dhruvtiwari110058@gmail.com",
   "classes": "bx-mail-send",
 },{
   "name": "youtube",
   "color": "255,0,0",
-  "href": "",
+  "href": "https://www.youtube.com/channel/UCwkIy2qnPDrYgvFPM9cSEIQ",
   "classes": "bxl-youtube",
 },{
   "name": "spotify",
   "color": "29,185,84",
-  "href": "",
+  "href": "https://open.spotify.com/playlist/397FYQdPPXxsK8PavKd81x?si=OElbfjMiSp-9ftMQAsqpQA",
   "classes": "bxl-spotify",
 },];
 
