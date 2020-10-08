@@ -10,7 +10,7 @@ var linkItems = [{
   "href": "https://illusion47586.github.io/2020sofar",
 }, {
   "name": "event submission",
-  "color": "2, 207, 138",
+  "color": "0, 166, 110",
   "href": "https://forms.gle/NRvcnExXe5N8QWFb8",
 },];
 
