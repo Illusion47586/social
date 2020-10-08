@@ -1,6 +1,10 @@
 /*jshint esversion: 6 */
 
 var linkItems = [{
+  "name": "download bookworm app",
+  "color": "189, 74, 255",
+  "href": "https://drive.google.com/file/d/1hNBircv0egOnM4VktQOtM-blWuNCVjnr/view?usp=sharing",
+},{
   "name": "2020 so far",
   "color": "207,117,0",
   "href": "https://illusion47586.github.io/2020sofar",
