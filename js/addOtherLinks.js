@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 
 var linkItems = [{
-  "name": "download bookworm",
+  "name": "download BookMark",
   "color": "106,25,125",
   "href": "https://drive.google.com/file/d/1ov-SWXVOhxVPuiswbmqXygBnTimOw1EI/view?usp=sharing",
 },{
