@@ -7,7 +7,7 @@ var linkItems = [{
 },{
   "name": "2020 so far",
   "color": "207,117,0",
-  "href": "https://illusion47586.github.io/2020sofar",
+  "href": "https://2020sofar.netlify.app/",
 }, {
   "name": "event submission",
   "color": "0, 166, 110",
