@@ -1,17 +1,17 @@
 /*jshint esversion: 6 */
 
 var linkItems = [{
-  "name": "download BookMark",
+  "name": "Github repo",
   "color": "106,25,125",
-  "href": "https://drive.google.com/file/d/1ov-SWXVOhxVPuiswbmqXygBnTimOw1EI/view?usp=sharing",
+  "href": "https://github.com/Illusion47586/covid_resources-india",
 },{
-  "name": "2020 so far",
+  "name": "Resource sample sheet",
   "color": "207,117,0",
-  "href": "https://2020sofar.netlify.app/",
+  "href": "https://docs.google.com/spreadsheets/d/1T5kSK1sdsXPHPqdpucIyA6-oBBm2ySILIAYYPX7DgYc",
 }, {
-  "name": "event submission",
+  "name": "Resource volunteer",
   "color": "0, 166, 110",
-  "href": "https://forms.gle/NRvcnExXe5N8QWFb8",
+  "href": "https://forms.gle/sfNE2zy67EbJZJU96",
 },];
 
 var linkBox = document.getElementById('other-links');
