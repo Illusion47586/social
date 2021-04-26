@@ -7,7 +7,7 @@ var linkItems = [{
 },{
   "name": "Web app",
   "color": "207,117,0",
-  "href": "https://covid-resources-india.netlify.app/",
+//   "href": "https://covid-resources-india.netlify.app/",
 }, {
   "name": "Volunteer form",
   "color": "0, 166, 110",
