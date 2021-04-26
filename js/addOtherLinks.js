@@ -5,11 +5,11 @@ var linkItems = [{
   "color": "106,25,125",
   "href": "https://github.com/Illusion47586/covid_resources-india",
 },{
-  "name": "Resource sample sheet",
+  "name": "Web app",
   "color": "207,117,0",
-  "href": "https://docs.google.com/spreadsheets/d/1T5kSK1sdsXPHPqdpucIyA6-oBBm2ySILIAYYPX7DgYc",
+  "href": "https://covid-resources-india.netlify.app/",
 }, {
-  "name": "Resource volunteer",
+  "name": "Volunteer form",
   "color": "0, 166, 110",
   "href": "https://forms.gle/sfNE2zy67EbJZJU96",
 },];
